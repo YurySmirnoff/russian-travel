@@ -5,10 +5,14 @@
   line-height: 76px;
   margin: 0;
 }
-
 @media screen and (max-width: 1080px) {
   .place__title {
     font-size: 6vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .place__title {
+    font-size: 72px;
   }
 }
 @media screen and (max-width: 768px) {
